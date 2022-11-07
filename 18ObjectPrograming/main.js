@@ -1,3 +1,3 @@
+'use strict';
 console.log('main.js');
 
-console.log(5 + 150);
