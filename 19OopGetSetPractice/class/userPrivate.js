@@ -1,4 +1,12 @@
-class User {
+
+'use strict';
+console.log('main.js');
+class userPrivate {
+    // User psiaudo private property
+    //private id
+    #id;
+    name;
+    town;
     constructor(argId, argName, argTown) {
         this.id = argId;
         this.name = argName;
@@ -8,7 +16,7 @@ class User {
 
 // geteris
 get id() {
-    return
+    return `${this.name} id is $`
 }
 
 //tureti id, name, town
